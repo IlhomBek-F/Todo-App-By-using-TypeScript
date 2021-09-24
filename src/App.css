@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(247, 247, 247, 0);
+}
+
+.App__todo {
+  margin-top: 100px;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.input__div {
+  width: 400px;
+  display: flex;
+  padding: 10px;
+  transition: 0.9s ease-in-out;
+}
+
+.input__div input {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  font-size: 17px;
+  border-bottom: 2px solid grey;
+}
+
+.input__div input:focus {
+  border-bottom: 2px solid blue;
+}
+
+.input__div button {
+  padding: 0px 15px;
+  font-weight: bolder;
+  background-color: lightgrey;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 5px;
+  background-color: rgb(241, 241, 241);
+  margin: 5px;
+}
+
+.ul {
+  padding: 0px 10px;
+}
+
+.delete {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 18px;
+}
+
+.delete:hover {
+  color: red;
+}
